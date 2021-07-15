@@ -119,3 +119,14 @@
     flex-direction: column;
   }
 }
+
+.colored{
+  color: #0070f3;
+}
+
+.palette{
+  display: grid;
+  margin-top: 25px;
+  width: 60%;
+  grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+}
